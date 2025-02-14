@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.13">
+  <diagram name="Page-1" id="Sn6EWg19AM5R_8AkQ4Zi">
+    <mxGraphModel dx="830" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="in7ZH2lZRlxWviMKBcq--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--1" target="in7ZH2lZRlxWviMKBcq--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--1" value="DataContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--2" value="JsonFileManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--3" value="CsvFileManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--6" value="Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.237;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--2" target="in7ZH2lZRlxWviMKBcq--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.674;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--3" target="in7ZH2lZRlxWviMKBcq--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--10" value="Voicemail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--11" target="in7ZH2lZRlxWviMKBcq--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--11" value="Person" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--12" target="in7ZH2lZRlxWviMKBcq--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--12" value="Home" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--13" value="Mailbox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--14" target="in7ZH2lZRlxWviMKBcq--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--14" value="Mailman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="in7ZH2lZRlxWviMKBcq--15" target="in7ZH2lZRlxWviMKBcq--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in7ZH2lZRlxWviMKBcq--15" value="Person" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
