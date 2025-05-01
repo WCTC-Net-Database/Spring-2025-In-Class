@@ -397,10 +397,11 @@ namespace W14_Final_Review.Services
 
             // Search in Equipment (both Weapon and Armor)
             var result = context.Players
+                .AsEnumerable()
                 .Where(p => (p.Equipment != null &&
-                             ((p.Equipment.Weapon != null && p.Equipment.Weapon.Name.Equals(itemName, StringComparison.OrdinalIgnoreCase)) ||
-                              (p.Equipment.Armor != null && p.Equipment.Armor.Name.Equals(itemName, StringComparison.OrdinalIgnoreCase))))
-                             || p.Inventory.Any(i => i.Name.Equals(itemName, StringComparison.OrdinalIgnoreCase)))
+                        ((p.Equipment.Weapon != null && p.Equipment.Weapon.Name.Equals(itemName, StringComparison.OrdinalIgnoreCase)) ||
+                            (p.Equipment.Armor != null && p.Equipment.Armor.Name.Equals(itemName, StringComparison.OrdinalIgnoreCase))))
+                    || p.Inventory.Any(i => i.Name.Equals(itemName, StringComparison.OrdinalIgnoreCase)))
                 .Select(p => new { p.Name, RoomName = p.Room != null ? p.Room.Name : "No Room" })
                 .FirstOrDefault();
 
