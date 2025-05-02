@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using W14_EFCore_Linq.Data;
-using W14_EFCore_Linq.Models;
+using W14_Final_Review.Data;
+using W14_Final_Review.Models;
 using W14_Final_Review.Services;
 
 // Delete and recreate the database on every run.

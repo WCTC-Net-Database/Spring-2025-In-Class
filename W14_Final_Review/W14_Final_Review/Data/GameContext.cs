@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using W14_EFCore_Linq.Models;
+using W14_Final_Review.Models;
 
-namespace W14_EFCore_Linq.Data;
+namespace W14_Final_Review.Data;
 
 public class GameContext : DbContext
 {

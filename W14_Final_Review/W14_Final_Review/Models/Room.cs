@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace W14_EFCore_Linq.Models
+namespace W14_Final_Review.Models
 {
     public class Room
     {

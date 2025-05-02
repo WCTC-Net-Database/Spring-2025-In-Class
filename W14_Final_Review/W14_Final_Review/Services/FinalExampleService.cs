@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using W14_EFCore_Linq.Models;
-using W14_EFCore_Linq.Data;
+using W14_Final_Review.Data;
+using W14_Final_Review.Models;
 
 namespace W14_Final_Review.Services
 {
@@ -84,9 +84,8 @@ namespace W14_Final_Review.Services
             Console.Write("Enter character name or part of it: ");
             string searchName = Console.ReadLine() ?? string.Empty;
 
-            var players = context.Players
-                .Where(p => p.Name.Contains(searchName, StringComparison.OrdinalIgnoreCase))
-                .ToList();
+            var players = context.Players.ToList()
+                .Where(p => p.Name.Contains(searchName, StringComparison.OrdinalIgnoreCase));
 
             if (players.Any())
             {
@@ -240,6 +239,13 @@ namespace W14_Final_Review.Services
 
             Console.WriteLine($"Room Name: {room.Name}");
             Console.WriteLine($"Description: {room.Description}");
+
+            Console.WriteLine("Players:");
+            foreach (var p in room.Players)
+            {
+                Console.WriteLine($"- {p.Name} (Id: {p.Id})");
+            }
+
 
             // Load inhabitants (players) in the room
             var inhabitants = context.Players.Where(p => p.RoomId == room.Id).ToList();

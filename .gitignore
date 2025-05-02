@@ -482,3 +482,4 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/W14_Final_Review/W14_Final_Review/efcore-log-20250501.txt
